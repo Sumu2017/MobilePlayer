@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_top_comments"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="@android:color/darker_gray">
+
+    <LinearLayout
+        android:id="@+id/ll_top_comment_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_name_one"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="嘿嘿嘿："
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/tv_content_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模仿的很成功"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_top_comment_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_name_two"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="嘿嘿嘿："
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/tv_content_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模仿的很成功"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</LinearLayout>
